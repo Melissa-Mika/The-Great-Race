@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  position: relative;
+  background-color: lightblue;
+  background-image: url("images/road.jpg"); /* background image*/
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+#red-light {
+  position: absolute;
+  left: 700px;
+  width: 150px;
+  height: 250px;
+}
+
+#green-light {
+  position: absolute;
+  left: 900px;
+  width: 210px;
+  height: 245px;
+}
+
+#tom {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  bottom: -700px;
+}
+
+#jerry {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  bottom: -690px;
+  left: 75px;
+}
+
+#winning-tom {
+  position: absolute;
+  left: 500px;
+}
+
+#winning-jerry {
+  position: absolute;
+  left: 500px;
+}
+
